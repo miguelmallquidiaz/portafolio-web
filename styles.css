@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+/* Header Section */
+#header {
+    background-color: #F8991D;
+    padding: 50px 0;
+}
+
+#header h1 {
+    font-size: 3rem;
+}
+
+#header p {
+    font-size: 1.2rem;
+}
+
+#header a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bi-github:hover {
+    color: #333333;
+}
+
+.bi-linkedin:hover {
+    color: #333333;
+}
+
+.bi-google:hover {
+    color: #333333;
+}
+
+.icon2-whatsapp:hover {
+    color: #333333;
+}
+
+#whatsapp-fixed-btn {
+    color: white;
+    background: #50F06C;
+    text-size-adjust: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-size: 2.5em;
+    width: 4rem;
+    height: 4rem;
+    right: 3.5rem;
+    bottom: 3.5rem;
+    border-radius: 50%;
+}
+
+#whatsapp-fixed-btn:hover {
+    background: #EEE;
+    color: #50F06C;
+}
+
+/* About Section */
+#about h2 {
+    color: #333333;
+}
+
+.icon-small {
+    width: 3.5rem;
+    padding: 10px;
+}
+
+.btn-project {
+    border: 2px solid #F8991D;
+    border-radius: 0px;
+    color: #F8991D;
+    font-weight: 600;
+    /* transition: all 200ms !important; */
+    background-color: #F8991D;
+    color: #fff;
+}
+
+.btn-project:hover {
+    background: #333333;
+    color: #fff;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #F8991D;
+    color: #fff;
+}
